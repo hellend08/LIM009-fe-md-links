@@ -1,0 +1,31 @@
+{
+  "name": "lim009-fe-md-links",
+  "version": "1.0.0",
+  "description": "'FE-MD-LINKS'",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "eslint": "eslint --ext .js src/ test/",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellend08/LIM009-fe-md-links.git"
+  },
+  "keywords": [
+    "javascript",
+    "jest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellend08/LIM009-fe-md-links/issues"
+  },
+  "homepage": "https://github.com/hellend08/LIM009-fe-md-links#readme"
+}
