@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "'FE-MD-LINKS'",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "acorn": "^6.1.1",
+    "lib-js": "0.0.7"
+  },
   "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "@babel/preset-react": "^7.0.0",
-    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-config-node": "^4.0.0",
     "jest": "^24.8.0"
   },
   "scripts": {
+    "build": "babel src -d lib",
     "eslint": "eslint --ext .js src/ test/",
     "test": "jest --coverage"
   },
